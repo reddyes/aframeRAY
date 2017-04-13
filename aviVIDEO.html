@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello world!</title>
+	<script type="text/javascript" src="aframe.js"></script>
+</head>
+<body>
+	<a-scene>
+	<a-assets>
+	<video id="prince" src="img/lol.mp4"> 
+	</a-assets>
+		<a-sphere 
+
+		  position="0 0 -17"
+
+		  radius="7"
+
+		   
+		  src="#prince"
+		  >   
+		  <!-- position is left-right  up-down  front-back -->
+<!-- diameter dont work ,radius does -->
+<!-- camera and cursor shows the start ppoint of camera and angle where it is staring -->
+<!-- event make like ""when the cursor pointed make it large lol" -->
+<!-- <a-event name="mouseenter" scale="2 2 2" -->
+	</a-sphere>
+	<a-camera position="0 0 0">
+		<a-cursor color="blue">
+	</a-camera>
+</a-scene>
+</body>
+</html>
